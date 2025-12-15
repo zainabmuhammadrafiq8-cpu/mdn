@@ -18,42 +18,41 @@
 .head4 {
     position: absolute;right: 26%;top: 10%;font-size: large;color: rgb(51, 46, 46);
 }
-span{
-    color: grey;font-size: small;
+#rate{
+    color: crimson;position: absolute;top: 22%;right: 32%;font-size: large;
 }
 
-#rate{
-    color: crimson;position: absolute;top: 25%;right: 32%;font-size: large;bottom: 40%;
+#color{
+    color: grey;font-size: small;position: absolute;top: 32%;right: 32%;
 }
+
 .img{
-    width: 30px;height: 30px;position: absolute;top: 47%;
+    width: 30px;height: 30px;position: absolute;top: 40%;
 }
 .img1{
-    right: 49%;top: 44%;
+    right: 49%;top: 38%;
 }
 .img2{
-    right: 43%;top: 44%;
+    right: 43%;top: 38%;
 }
 .img3{
-    right: 36%;top: 44%;
+    right: 36%;top: 38%;
 }
 .img4{
-    right: 30%;top: 44%;
+    right: 30%;top: 38%;
 }
 
 b{ font-size:xx-large;    }  
 
-#color{
-    display: block;color: grey;position: absolute;right: 30%;font-size: small;top:39% ;
-}
 .h4{
-    color: grey;position: absolute;right: 40%;font-size: small;top: 57%;
+    color: grey;position: absolute;right:40%;font-size: small;top: 48%;
 }
-ul{
-    color: rgb(71, 68, 68);font-size: small;position: absolute;left: 40%;top:62% ;
+ .good{
+        color: rgb(71, 68, 68);font-size: small;position: absolute;left: 40%;top:54% ;
+
 }
-button{width: 35%;height: 11%;color: white;background-color: crimson;border: none;
-    position: absolute;bottom:5% ;right: 18%;border-radius: 10%;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+button{width: 30%;height: 8%;color: white;background-color: crimson;border: none;
+    position: absolute;bottom:3% ;right: 18%;border-radius: 10%;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
 }
 .white{
@@ -79,19 +78,77 @@ button{width: 35%;height: 11%;color: white;background-color: crimson;border: non
 }
 
  @media (max-width:1000px){
-.containar .card {width: 50%;display: block;
+.containar .card {width: 60%;
 }
-.white{
-    width: 30%;display: block;
+.white .green{
+    width: 28%;
 }
 }
  @media (max-width:750px){
-.containar .card {width: 80%
+.containar .card {width: 60%
 }
-.white{
-    width: 50%;
+.white .green{
+    width: 28%;
+}
+.white .apple{
+    width: 280px;
 }
 }
+ @media (max-width:650px){ 
+    .good{
+        left: 35%;
+    }
+    .white .apple{
+        width:260px ;
+    }
+    button{
+        width: 100px;font-size: 10px;
+    }
+    .img{
+        padding: 5px;
+    }
+ }
+ @media (max-width:600px){
+    .containar.card{
+        width: 90%;
+    }
+    .white .apple{
+display: flex;flex-direction: column;
+    }
+    .white .apple{
+        width: 240px;
+    }
+ }
+  @media (max-width:500px){
+    .white{
+        width: 60%;height: 50%;
+    }
+    .apple{
+        width: 200px;left: 8%;top: 10%;
+    }
+    .green{
+            height: 10%;   width: 60%;top:58% ;
+
+    }
+    .containar{
+        height: 90%;margin: 0 auto;
+
+            }
+                    .card{
+        width: 60;top: 67%;left: 15%;
+    }
+    .good{
+        left:20%
+    }
+    .button{
+        left: 30%;
+    }
+    #color #rate{
+        left 20%
+    }
+  }
+
+
 
 
 
@@ -111,7 +168,7 @@ button{width: 35%;height: 11%;color: white;background-color: crimson;border: non
 
 /* ******************************form start*********************** */
 .parent{
-   width:1000px ;
+   width:1000px;
     height: 100vh;
     border-radius: 10px;
     background-color: aliceblue;
@@ -203,6 +260,8 @@ header .logo img{
 }
   .dropdown .dropbtn{
     border: none;width: 100px;
+    color: red;
+    
 }
 
 .dropdown-content {
