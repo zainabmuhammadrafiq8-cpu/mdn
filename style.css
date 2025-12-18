@@ -575,7 +575,30 @@ margin-left: 15px;
 
 
     }
+        @media(max-width:450px){
+                  .hero .content .head1{
+        position: absolute;top:1150px ;
+}
+.hero .content .para1{
+        position: absolute;top:1180px ;}
+  .hero .content .head2{
+  position: absolute;top:1800px ;
+}
+.hero .content .para2{
+        position: absolute;top:1800px ;
 
+}
+.hero .content .head3{
+    position: absolute;top:3600px ;
+}
+.hero .content .para3{
+        position: absolute;top:3600px ;
+
+} 
+
+
+
+        }
 
 
 
