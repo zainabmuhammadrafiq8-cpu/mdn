@@ -1,0 +1,159 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: rgb(117, 41, 41);
+}
+.containar {
+   min-height: 480px;max-width: 800px;position: fixed;padding-left: 130px;background-color: rgba(134, 163, 27, 0.555);
+    position: relative;margin: 4em auto;
+}
+.card{
+    width: 60%;height: 85%;background-color: white;position: absolute;
+    right: 15%;top:8%;
+}
+
+.head4 {
+    position: absolute;right: 26%;top: 10%;font-size: large;color: rgb(51, 46, 46);
+}
+#rate{
+    color: crimson;position: absolute;top: 22%;right: 32%;font-size: large;
+}
+
+#color{
+    color: grey;font-size: small;position: absolute;top: 32%;right: 32%;
+}
+
+.img{
+    width: 30px;height: 30px;position: absolute;top: 40%;
+}
+.img1{
+    right: 49%;top: 38%;
+}
+.img2{
+    right: 43%;top: 38%;
+}
+.img3{
+    right: 36%;top: 38%;
+}
+.img4{
+    right: 30%;top: 38%;
+}
+
+b{ font-size:xx-large;    }  
+
+.h4{
+    color: grey;position: absolute;right:40%;font-size: small;top: 48%;
+}
+ .good{
+        color: rgb(71, 68, 68);font-size: small;position: absolute;left: 40%;top:54% ;
+
+}
+button{width: 30%;height: 8%;color: white;background-color: crimson;border: none;
+    position: absolute;bottom:12% ;right: 18%;border-radius: 10%;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+.white{
+    height: 75%;width: 30%;background-color: rgb(194, 241, 65);position: absolute;z-index: 1;top: 8%;left: 15%;
+}
+.white .apple{
+    width: 300px;position: absolute;top:7%; right: 1%;
+}
+.green{
+    width: 30%;height: 10%;background-color: rgb(225, 241, 236);position: absolute;z-index: 1;bottom: 7%;left: 15%;
+}
+.g-apple{
+    width: 20%;left: 10%;
+}
+.g-apple1{
+    width: 20%;left: 20%;
+}
+.g-apple2{
+    width: 20%;left: 30%;
+}
+.g-apple3{
+    width: 20%;left: 40%;
+}
+
+ @media (max-width:1000px){
+.containar .card {width: 60%;
+}
+.white .green{
+    width: 28%;
+}
+}
+ @media (max-width:750px){
+.containar .card {width: 60%
+}
+.white .green{
+    width: 28%;
+}
+.white .apple{
+    width: 280px;
+}
+}
+ @media (max-width:650px){ 
+    .good{
+        left: 35%;
+    }
+    .white .apple{
+        width:260px ;
+    }
+    button{
+        width: 100px;font-size: 10px;
+    }
+    .img{
+        padding: 5px;
+    }
+ }
+ @media (max-width:600px){
+    .containar.card{
+        width: 90%;
+    }
+    .white .apple{
+display: flex;flex-direction: column;
+    }
+    .white .apple{
+        width: 240px;
+    }
+ }
+  @media (max-width:500px){
+    .white{
+        width: 60%;height: 50%;
+    }
+    .apple{
+        width: 200px;left: 8%;top: 10%;
+    }
+    .green{
+            height: 10%;   width: 60%;top:58% ;
+
+    }
+    .containar{
+        height: 90%;margin: 0 auto;
+
+            }
+                    .card{
+        width: 60;top: 67%;left: 15%;
+    }
+    .good{
+        left:20%;
+    }
+    .button{
+        left: 30%;
+    }
+    #color #rate{
+        left: 20%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
